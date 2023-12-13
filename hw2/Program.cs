@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Tbiliso!");
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.BackgroundColor = ConsoleColor.Blue;
+        Console.WriteLine("Anano Kaishauri");
+        Console.WriteLine(Console.ReadLine());
+    }
+}
